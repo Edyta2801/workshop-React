@@ -24,3 +24,9 @@ export const Secondary: Story = {
     onClick: fn(),
   },
 };
+export const Disabled: Story = {
+  args: {
+    label: "Click me!",
+    disabled: true,
+  },
+};
